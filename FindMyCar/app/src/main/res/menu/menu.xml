@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:checkableBehavior="single">
+    <item
+        android:title="chronology"
+        android:icon="@drawable/ic_arrow"
+        android:id="@+id/menu_chronology"/>
+    <item
+        android:title="New Style"
+        android:icon="@drawable/ic_dashboard"
+        android:id="@+id/menu_style"/>
+
+    <item
+        android:title="Memory Game"
+        android:icon="@drawable/ic_memory"
+        android:id="@+id/menu_game"/>
+    <item
+        android:title="Remove ads"
+        android:icon="@drawable/ic_remove"
+        android:id="@+id/menu_remove"/>
+    <item
+        android:title="Ads Settings"
+        android:icon="@drawable/ic_remove"
+        android:id="@+id/menu_settings"/>
+    <item
+        android:title="Feet"
+        android:icon="@drawable/ic_uv_index"
+        android:iconTint="@color/white"
+        android:actionLayout="@layout/spinner_view"
+        android:id="@+id/menu_feet"/>
+    <item
+        android:title="Share the app"
+        android:icon="@drawable/ic_telegram"
+        android:id="@+id/menu_share"/>
+    <item
+        android:title="Information"
+
+        android:id="@+id/menu_information"/>
+</group>
+</menu>

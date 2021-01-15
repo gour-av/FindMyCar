@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34495E"
+    tools:context=".fragments.StyleFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tool"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/img_rect_pos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/rect_shape" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Save  Position"
+            android:id="@+id/tv_save_position"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginStart="120dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memorize the current position"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tv_save_position"
+            android:layout_marginStart="110dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_car_placeholder"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rect_shape"
+            android:layout_below="@id/img_rect_pos"
+            android:id="@+id/img_car_rect"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="18dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_rect_pos"
+            android:text="FIND CAR"
+            android:id="@+id/tv_find_car_style"
+            android:layout_marginTop="38dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginStart="155dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find the most recent"
+            android:layout_below="@id/tv_find_car_style"
+            android:id="@+id/tv_recent"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_marginStart="150dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="memorized position"
+            android:layout_below="@id/tv_recent"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_marginStart="150dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_car"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="35dp"
+            android:layout_below="@id/img_rect_pos"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rect_one_shape"
+            android:layout_below="@id/img_car_rect"
+            android:layout_marginTop="30dp"
+            android:id="@+id/img_chronology"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chronology"
+            android:textColor="@color/white"
+            android:id="@+id/tv_chronology"
+            android:layout_below="@id/img_car_rect"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_chronology_icon"
+            android:layout_marginStart="70dp"
+            android:layout_below="@id/img_car_rect"
+            android:layout_marginTop="40dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rect_one_shape"
+            android:layout_below="@id/img_chronology"
+            android:layout_marginTop="20dp"
+            android:id="@+id/img_menu"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textColor="@color/white"
+            android:id="@+id/tv_menu"
+            android:layout_below="@id/img_chronology"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_car_repair"
+            android:layout_marginStart="70dp"
+            android:layout_below="@id/img_chronology"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454016135967",
+    "project_id": "findmycar-4885d",
+    "storage_bucket": "findmycar-4885d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454016135967:android:695fabe8e083416494b62a",
+        "android_client_info": {
+          "package_name": "com.masai_technology.findmycar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454016135967-utf9l46v8f4h02v7nv25p6nr4ijulc49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACpqWzg_ylkpSNEcLgsboWM34EkNLJU78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454016135967-utf9l46v8f4h02v7nv25p6nr4ijulc49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
